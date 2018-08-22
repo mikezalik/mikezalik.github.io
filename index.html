@@ -1,1 +1,131 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Michael Zalik, Front-End Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+ <body> 
+<header class="banner" role="banner">
+    <div class="banner-content">
+    <h1 class ="top-header">Michael Zalik</h1>
+    <h2 class="arrow" href="#about">&darr;</h2>
+    </div>
+</header>
+<nav class="nav-bar">
+    <a class="nav-link" href="#about">About</a><br>
+    <a class="nav-link" href="#projects">Projects</a><br>
+    <a class="nav-link" href="#contact">Contact</a><br>
+    <a class="nav-link" href="#resume">Resume</a><br>
+</nav>
+ <main role="main">
+  <section id="about">
+   <div class ="about-container">
+    <div class ="about-content">
+     <p> I'm a front-end developer in the Los Angeles area.
+         I approach every project with user experience in mind
+         and strive to provide a simple and beautiful interface with emphasis on responsive
+         design and user accessibility.</p>
+     <p> In my past life I was a banker with a background in consumer and business lending.</p>
+     <p> If I'm not coding, you can find me at the gym or out on a hike!</p>
+    </div>
+     <div class="headshot-container">
+      <img id="headshot" src = "img/modd.png" alt="Mike posing">
+      </img>
+     </div>
+    </div>
+  </section>
+  <section id="projects">
+   <h2>Projects</h2>
+    <section id="stormy" class="project-container">
+     <details open>
+                    <summary>
+                        <h3>UrbanSun</h3>
+                    </summary>
+                    
+                    <div class="img-container">
+                    <img id="img-proj" src = "img/Screen Shot 2018-08-09 at 11.44.04 PM.png" alt="UrbanSun app screenshot">
+                    </img>
+                    <p>This app utilizes the openweather API to request geolocal weather data.</p>
+                    </div>
+
+                    <div class="code-links">
+                        <a id="c-links" href="https://quizzical-khorana-847101.netlify.com/">Demo</a><br>
+                        <a id="c-links" href="https://github.com/mikezalik/urbanSun">Source Code</a><br>
+                    </div>
+                    <p>- JQuery - AJAX - JSON - Bootstrap 4 -</p>
+                </details>
+                </section>
+            <section id="fun-fact" class="project-container">
+                <details open>
+                    <summary>
+                        <h3>CalculatorJS</h3>
+                    </summary>
+                            <div class="img-container">
+                                <img id="img-proj" src = "img/Screen Shot 2018-08-08 at 3.43.29 PM.png" alt="UrbanSun app screenshot">
+                                </img>
+                            </div>
+                    
+                    <p>Simple calculator developed with Vanilla JS.</p>
+                    <div class="code-links">
+                        <a id="c-links" href="https://boring-raman-d0db18.netlify.com/">Demo</a><br>
+                        <a id="c-links" href="https://github.com/mikezalik/calculatorJS">Source Code</a>
+                    </div>
+                    <p>- Vanilla JavaScript -</p>
+                </details>
+                </section>
+            <section id="shelina" class="project-container">
+                <div class="img-container">
+                    <img>
+
+                </div>
+            <!--    <details open>
+                    <summary>
+                        <h3>ShelinaApp</h3>
+                    </summary>
+                    <p>Blah blah blah... This app works when it wants to.</p>
+                    <div class="code-links">
+                        <a></a>
+                        <a></a>
+                    </div>
+                    <ul>
+                        <li>Vanilla JavaScript</li>
+                        <li>AJAX</li>
+                        <li>JSON</li>
+                    </ul>
+                </details>
+            </section> -->
+        </section>
+        <section id="contact-header">
+            <h2 class="contact-head">Contact</h2>
+            </section>
+            <section id="contact">
+            <div id="contact-container">
+                <div class="contact-content">
+                    <h3>Get in touch!</h3>
+                    <p>For general inquiry, email <a class="email" href=mailto:mike.zalik@gmail.com>mike.zalik@gmail.com</a>.</p>
+                    <p>Find out more details about my code at GitHub.</p>
+                    <p>I am always looking to grow, develop and network so please reach out!</p>
+
+                </div>
+                <div class="contact-social">
+                    <img id="ig" src="svg/instagram.svg"><br>
+                    <img id="li" src="svg/linkedin.svg"><br>
+                    <img id="gh" src="svg/github.svg"><br>
+
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+    <footer>
+
+
+    </footer>    
+ </body>
+</html>

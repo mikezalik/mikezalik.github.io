@@ -114,8 +114,8 @@ html {
 }
 
 #ig, #li, #gh {
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 10%;
+    max-height: 10%;
     padding: 1em;
 }
 .nav-bar {
@@ -151,11 +151,9 @@ html {
   0% {
     padding-top: 20px;
   }
-
   50% {
     padding-top: 32px;
   }
-
   100% {
     padding-top: 20px;
   }
@@ -370,3 +368,20 @@ ul {
 .contact-head {
     color: $fade-black;
 }
+
+.svg {
+    position: relative;
+    display: inline-block; 
+   }
+.svg:after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+  }
+
+  object {
+    width: 20%;
+  }

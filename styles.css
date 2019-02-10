@@ -26,6 +26,31 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+#banner-contact {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  display: flex;
+  justify-content: right;
+  text-align: left;
+  margin-left: 32em;
+  margin-right: auto;
+  max-width: 75%;
+  font-size: 1.5vmin;
+  line-height: 2em; }
+
+@media all and (max-width: 780px) {
+  #banner-contact {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    margin-left: 15em;
+    margin-right: auto;
+    max-width: 75%;
+    line-height: 2em; } }
 #about {
   display: flex;
   flex-direction: column;
@@ -185,7 +210,7 @@ html {
   margin-top: 75px;
   margin-bottom: 75px; }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1650px) {
   .top-header {
     box-sizing: content-box;
     padding: .5em;
@@ -267,6 +292,9 @@ a {
   text-decoration: none;
   transition: color .5s ease-in; }
 
+#contact-link {
+  color: #323232; }
+
 body {
   font-family: "Oxygen", sans-serif;
   display: block;
@@ -311,7 +339,8 @@ h2 {
   color: #f8f8f8; }
 
 ul {
-  display: inline-block; }
+  display: inline-block;
+  list-style: none; }
 
 #c-links {
   color: #323232;

@@ -20,6 +20,11 @@ $color-primary-2: #E3E3E3;
 @media all and (max-width: 736px)
 @media all and (max-width: 480px) */
 
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+    
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

@@ -18,5 +18,8 @@
   "homepage": "https://github.com/mikezalik/mikezalik.github.io#readme",
   "dependencies": {
     "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1"
   }
 }

@@ -401,7 +401,7 @@ min-height: 1em;
     }
 }
 
-#contact-link {
+.contact-link {
   color: $fade-black;
 }
 
@@ -448,12 +448,12 @@ min-height: 1em;
   padding: 1em;
 }
 
-#c-links{
+.c-links{
     color: $fade-black;
     font-style: italic;
 }
 
-#c-links:hover{
+.c-links:hover{
     color: $off-white;
 }
 

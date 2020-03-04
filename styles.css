@@ -364,11 +364,11 @@ object {
   justify-content: center;
   padding: 1em; }
 
-#c-links {
+.c-links {
   color: #323232;
   font-style: italic; }
 
-#c-links:hover {
+.c-links:hover {
   color: #f8f8f8; }
 
 .contact-head {

@@ -375,27 +375,27 @@ min-height: 1em;
   }
 }
 
-#img-proj{
+.img-proj{
     max-width: 25%;
     max-height: 25%;
 }
 
   @media all and (max-width: 480px){
-    #img-proj{
+    .img-proj{
         max-width: 50%;
         max-height: 50%;
     }
 }
 
   @media all and (min-width: 780px){
-    #img-proj{
+    .img-proj{
         max-width: 35%;
         max-height: 35%;
     }
 }
 
   @media all and (min-width: 980px){
-    #img-proj{
+    .img-proj{
         max-width: 25%;
         max-height: 25%;
     }

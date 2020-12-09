@@ -193,9 +193,9 @@ object {
   text-align: center;
   padding: 1em;
   /* border-width: 5px;
-   border-style: solid;
-   border-radius: 5px;
-   border-color: $fade-black; */
+  border-style: solid;
+  border-radius: 5px;
+  border-color: $fade-black; */
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -315,7 +315,7 @@ object {
 
 @media all and (max-width: 780px) {
   #about,
-  #projects {
+#projects {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -353,7 +353,7 @@ object {
 
 @media all and (max-width: 1280px) {
   .banner {
-    padding: 12em;
+    padding: 15em;
   }
 }
 @media all and (max-width: 780px) {

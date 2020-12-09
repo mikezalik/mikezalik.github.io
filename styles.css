@@ -149,6 +149,7 @@ object {
   opacity: 0.8;
   min-width: 3em;
   min-height: 1em;
+  padding: 25em;
 }
 
 @keyframes wiggle {
@@ -239,10 +240,6 @@ object {
   color: grey;
 }
 
-.banner {
-  padding: 25em;
-}
-
 /* ABOUT */
 #headshot {
   max-width: 100%;
@@ -331,7 +328,7 @@ object {
   background-color: #a5a5a5;
 }
 
-#shelina {
+#brianna {
   background-color: #e3e3e3;
 }
 

@@ -156,6 +156,7 @@ object {
   opacity: 0.8;
   min-width: 3em;
   min-height: 1em;
+  padding: 25em;
 }
 
 @keyframes wiggle {
@@ -250,9 +251,6 @@ object {
 .email {
   color: grey;
 }
-.banner {
-  padding: 25em;
-}
 
 /* ABOUT */
 #headshot {
@@ -346,7 +344,7 @@ object {
   background-color: $color-primary-0;
 }
 
-#shelina {
+#brianna {
   background-color: $color-primary-2;
 }
 

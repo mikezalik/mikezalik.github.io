@@ -251,7 +251,7 @@ object {
   color: grey;
 }
 .banner {
-  padding: 12em;
+  padding: 25em;
 }
 
 /* ABOUT */
@@ -368,7 +368,12 @@ object {
 
 @media all and (max-width: 1988px) {
   .banner {
-    padding: 25em;
+    padding: 22em;
+  }
+}
+@media all and (max-width: 1280px) {
+  .banner {
+    padding: 15em;
   }
 }
 

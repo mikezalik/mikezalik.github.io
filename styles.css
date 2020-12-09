@@ -149,7 +149,7 @@ object {
   opacity: 0.8;
   min-width: 3em;
   min-height: 1em;
-  padding: 25em;
+  padding: 15em;
 }
 
 @keyframes wiggle {
@@ -348,26 +348,6 @@ object {
   color: black;
 }
 
-@media all and (max-width: 1988px) {
-  .banner {
-    padding: 22em;
-  }
-}
-@media all and (max-width: 1893px) {
-  .banner {
-    padding: 20em;
-  }
-}
-@media all and (max-width: 1829px) {
-  .banner {
-    padding: 17em;
-  }
-}
-@media all and (max-width: 1699px) {
-  .banner {
-    padding: 15em;
-  }
-}
 @media all and (max-width: 780px) {
   .banner {
     padding: 5em;

@@ -204,7 +204,17 @@
       </section>
     </main>
     <footer>
-      <small>&copy; Copyright 2020, Michael Zalik</small>
+      <small
+        >&copy; <noscript>2020</noscript><span id="year"></span> | Michael
+        Zalik</small
+      >
     </footer>
+    <script>
+      (function () {
+        // set date for copyright
+        var yearNode = document.querySelector("#year");
+        yearNode.innerHTML = new Date().getFullYear();
+      })();
+    </script>
   </body>
 </html>

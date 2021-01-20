@@ -11,8 +11,8 @@
 */
 
 /* FONTS */
-$font-header: "Crimson Text", serif;
-$font-body: "Oxygen", sans-serif;
+$font-header: 'Crimson Text', serif;
+$font-body: 'Noto Sans JP', sans-serif;
 
 /* COLORS */
 $fade-black: #323232;
@@ -150,7 +150,7 @@ object {
 }
 
 .banner {
-  background-image: url("img/white-brick.jpg");
+  background-image: url('img/white-brick.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.8;
@@ -303,7 +303,7 @@ object {
 }
 
 .about-content {
-  max-width: 100%;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
@@ -336,15 +336,15 @@ object {
   }
 }
 
-#stormy {
+#brianna {
   background-color: $color-primary-2;
 }
 
-#fun-fact {
+#stormy {
   background-color: $color-primary-0;
 }
 
-#brianna {
+#fun-fact {
   background-color: $color-primary-2;
 }
 
@@ -468,7 +468,7 @@ object {
 }
 
 .svg:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;

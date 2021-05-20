@@ -1,237 +1,265 @@
 <!DOCTYPE html>
 <html lang="En">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Michael Zalik, Web Developer Portfolio</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"
-    />
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text"
-      rel="stylesheet preconnect"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="banner">
-      <section>
-        <div id="banner-contact">
-          <ul>
-            <li>
-              Email:
-              <a class="contact-link" href="mailto:mike.zalik@gmail.com"
-                >mike.zalik@gmail.com</a
-              >
-              <br />
-            </li>
-            <li>Mobile:<a class="contact-link"> 619.301.0965</a><br /></li>
-            <li>
-              GitHub:
-              <a class="contact-link" href="https://github.com/mikezalik"
-                >@mikezalik</a
-              ><br />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <div class="banner-content">
-        <h1 class="top-header">Michael Zalik</h1>
-        <h2 class="arrow">&darr;</h2>
-      </div>
-    </header>
-    <nav class="nav-bar">
-      <a class="nav-link" href="#about">About</a><br />
-      <a class="nav-link" href="#projects">Projects</a><br />
-      <a class="nav-link" href="#contact">Contact</a><br />
-      <a class="nav-link" href="./img/Michael Zalik-Resume.pdf">Resume</a><br />
-    </nav>
-    <main>
-      <section id="about">
-        <div class="about-container">
-          <div class="about-content">
-            <p>
-              I'm a sales professional in the Los Angeles area. One of the
-              primary goals in my hobby work is to design and code simple and
-              straightforward user interfaces with emphasis in progressive
-              enhancement. I have experience with modern front-end and back-end
-              JavaScript frameworks and with Ruby on Rails.
-            </p>
-            <p>
-              When I'm not selling or coding, you can find me out flying,
-              hanging out with my miniature dachshund "Benny", or out looking
-              for my next adventure!
-            </p>
-          </div>
-          <div class="headshot-container">
-            <img
-              id="headshot"
-              src="img/Image-1.jpg"
-              alt="Mike and Stanley posted up"
-            />
-          </div>
-        </div>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <section id="brianna" class="project-container">
-          <details open>
-            <summary>
-              <h3>LeSearchySearch</h3>
-            </summary>
-            <div class="img-container">
-              <img
-                class="img-proj"
-                src="img/Screen Shot 2021-01-19 at 11.09.02 PM.png"
-                alt="LeSearchySearch app screenshot"
-              />
-            </div>
-            <div class="about-content">
-              <p>
-                This is a full stack Ruby on Rails search engine I developed to
-                help my girlfriend organize documents and information for her
-                sales role.
-              </p>
-            </div>
-            <div class="code-links">
-              <a class="c-links" href="https://searchysearch.herokuapp.com/"
-                >Demo</a
-              ><br />
-              <a
-                class="c-links"
-                href="https://github.com/mikezalik/searchy-search"
-                >Source Code</a
-              >
-            </div>
-            <p>- Ruby on Rails - Devise - SASS - Babel - PostgreSQL -</p>
-          </details>
-        </section>
-        <section id="stormy" class="project-container">
-          <details open>
-            <summary>
-              <h3>UrbanMoon</h3>
-            </summary>
-            <div class="img-container">
-              <img
-                class="img-proj"
-                src="img/Screen Shot 2021-01-19 at 11.12.04 PM.png"
-                alt="Weather app screenshot"
-              />
-              <div class="about-content">
-                <p>
-                  Simple and straightforward user interface built with ReactJS
-                  that displays current and local weather updates on demand.
-                </p>
-              </div>
-            </div>
-            <div class="code-links">
-              <a class="c-links" href="https://brave-booth-15c32b.netlify.com/"
-                >Demo</a
-              ><br />
-              <a class="c-links" href="https://github.com/mikezalik/UrbanMoon"
-                >Source Code</a
-              ><br />
-            </div>
-            <p>- JavaScript - React - JSON - AJAX - Bootstrap 4 -</p>
-          </details>
-        </section>
-        <section id="fun-fact" class="project-container">
-          <details open>
-            <summary>
-              <h3>Email Assistant API</h3>
-            </summary>
-            <div class="img-container">
-              <img
-                class="img-proj"
-                src="img/email-assistant-api-img.png"
-                alt="email assistant app screenshot"
-              />
-            </div>
-            <div class="about-content">
-              <p>
-                An Express microservice that delivers email content and stock
-                information in JSON.
-              </p>
-            </div>
-            <div class="code-links">
-              <!-- <a class="c-links" href="https://boring-raman-d0db18.netlify.com/"
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Michael Zalik, Web Developer Portfolio</title>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"
+		/>
+		<link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Crimson+Text"
+			rel="stylesheet preconnect"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="banner">
+			<section>
+				<div id="banner-contact">
+					<ul>
+						<li>
+							Email:
+							<a class="contact-link" href="mailto:mike.zalik@gmail.com"
+								>mike.zalik@gmail.com</a
+							>
+							<br />
+						</li>
+						<li>Mobile:<a class="contact-link"> 619.301.0965</a><br /></li>
+						<li>
+							GitHub:
+							<a class="contact-link" href="https://github.com/mikezalik"
+								>@mikezalik</a
+							><br />
+						</li>
+					</ul>
+				</div>
+			</section>
+			<div class="banner-content">
+				<h1 class="top-header">Michael Zalik</h1>
+				<h2 class="arrow">&darr;</h2>
+			</div>
+		</header>
+		<nav class="nav-bar">
+			<a class="nav-link" href="#about">About</a><br />
+			<a class="nav-link" href="#projects">Projects</a><br />
+			<a class="nav-link" href="#contact">Contact</a><br />
+			<a class="nav-link" href="./img/Michael Zalik-Resume.pdf">Resume</a><br />
+		</nav>
+		<main>
+			<section id="about">
+				<div class="about-container">
+					<div class="about-content">
+						<p>
+							I'm a sales professional in the Los Angeles area looking to
+							transition into software development. One of the primary goals in
+							my work is to design and code simple and straightforward user
+							interfaces with emphasis in progressive enhancement. I have
+							experience with modern front-end and back-end JavaScript
+							frameworks and with Ruby on Rails.
+						</p>
+						<p>
+							When I'm not selling or coding, you can find me out flying,
+							hanging out with my miniature dachshund "Benny", or out looking
+							for my next adventure!
+						</p>
+					</div>
+					<div class="headshot-container">
+						<img
+							id="headshot"
+							src="img/Image-1.jpg"
+							alt="Mike and Stanley posted up"
+						/>
+					</div>
+				</div>
+			</section>
+			<section id="projects">
+				<h2>Projects</h2>
+				<section id="brianna" class="project-container">
+					<details open>
+						<summary>
+							<h3>LeSearchySearch</h3>
+						</summary>
+						<div class="img-container">
+							<img
+								class="img-proj"
+								src="img/Screen Shot 2021-01-19 at 11.09.02 PM.png"
+								alt="LeSearchySearch app screenshot"
+							/>
+						</div>
+						<div class="about-content">
+							<p>
+								This is a full stack Ruby on Rails search engine I developed to
+								help organize documents and information for her sales role.
+							</p>
+						</div>
+						<div class="code-links">
+							<a class="c-links" href="https://searchysearch.herokuapp.com/"
+								>Demo</a
+							><br />
+							<a
+								class="c-links"
+								href="https://github.com/mikezalik/searchy-search"
+								>Source Code</a
+							>
+						</div>
+						<p>- Ruby on Rails - Devise - SASS - Babel - PostgreSQL -</p>
+					</details>
+				</section>
+				<section id="stormy" class="project-container">
+					<details open>
+						<summary>
+							<h3>UrbanMoon</h3>
+						</summary>
+						<div class="img-container">
+							<img
+								class="img-proj"
+								src="img/Screen Shot 2021-01-19 at 11.12.04 PM.png"
+								alt="Weather app screenshot"
+							/>
+							<div class="about-content">
+								<p>
+									Simple and straightforward user interface built with ReactJS
+									that displays current and local weather updates on demand.
+								</p>
+							</div>
+						</div>
+						<div class="code-links">
+							<a class="c-links" href="https://brave-booth-15c32b.netlify.com/"
+								>Demo</a
+							><br />
+							<a class="c-links" href="https://github.com/mikezalik/UrbanMoon"
+								>Source Code</a
+							><br />
+						</div>
+						<p>- JavaScript - React - JSON - AJAX - Bootstrap 4 -</p>
+					</details>
+				</section>
+				<section id="fun-fact" class="project-container">
+					<details open>
+						<summary>
+							<h3>Home-Base</h3>
+						</summary>
+						<div class="img-container">
+							<img
+								class="img-proj"
+								src="img/home-base.png"
+								alt="home base app screenshot"
+							/>
+						</div>
+						<div class="about-content">
+							<p>
+								A React SPA that helps make the day more productive by providing
+								easy access to to-do's, news and stock information.
+							</p>
+						</div>
+						<div class="code-links">
+							<a class="c-links" href="https://home-base1.netlify.com/">Demo</a>
+							<br />
+							<a class="c-links" href="https://github.com/mikezalik/home-base"
+								>Source Code</a
+							>
+						</div>
+						<p>- JavaScript - React - JSON - MaterialUI -</p>
+					</details>
+				</section>
+				<section id="stormy" class="project-container">
+					<details open>
+						<summary>
+							<h3>Email Assistant API</h3>
+						</summary>
+						<div class="img-container">
+							<img
+								class="img-proj"
+								src="img/email-assistant-api-img.png"
+								alt="email assistant app screenshot"
+							/>
+						</div>
+						<div class="about-content">
+							<p>
+								An Express microservice that delivers email content and stock
+								information in JSON.
+							</p>
+						</div>
+						<div class="code-links">
+							<!-- <a class="c-links" href="https://boring-raman-d0db18.netlify.com/"
                 >Demo</a
               > -->
-              <br />
-              <a
-                class="c-links"
-                href="https://github.com/mikezalik/email-assistant-api"
-                >Source Code</a
-              >
-            </div>
-            <p>- Node - Express - Passport - MongoDB -</p>
-          </details>
-        </section>
-      </section>
-      <section id="contact-header">
-        <h2 class="contact-head">Contact</h2>
-      </section>
-      <section id="contact">
-        <div id="contact-container">
-          <div class="contact-content">
-            <h3>Get in touch!</h3>
-            <p>
-              For general inquiry, email
-              <a class="email" href="mailto:mike.zalik@gmail.com"
-                >mike.zalik@gmail.com</a
-              >.
-            </p>
-            <p>
-              Find out more details about my code at
-              <a style="color: #a5a5a5" href="https://github.com/mikezalik"
-                >GitHub</a
-              >.
-            </p>
-            <p>
-              I'm always looking to grow, develop and network so please reach
-              out!
-            </p>
-          </div>
-          <div class="contact-social">
-            <a
-              href="https://www.linkedin.com/in/michael-z-1158607b/"
-              class="svg"
-            >
-              <object
-                data="svg/linkedin.svg"
-                type="image/svg+xml"
-                class="mailicon"
-              ></object>
-            </a>
-            <a href="https://github.com/mikezalik" class="svg">
-              <object
-                data="svg/github.svg"
-                type="image/svg+xml"
-                class="mailicon"
-              ></object>
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <small
-        >&copy; <noscript>2020</noscript><span id="year"></span> | Michael
-        Zalik</small
-      >
-    </footer>
-    <script>
-      (function () {
-        // set date for copyright
-        var yearNode = document.querySelector('#year');
-        yearNode.innerHTML = new Date().getFullYear();
-      })();
-    </script>
-  </body>
+							<br />
+							<a
+								class="c-links"
+								href="https://github.com/mikezalik/email-assistant-api"
+								>Source Code</a
+							>
+						</div>
+						<p>- Node - Express - Passport - MongoDB -</p>
+					</details>
+				</section>
+			</section>
+			<section id="contact-header">
+				<h2 class="contact-head">Contact</h2>
+			</section>
+			<section id="contact">
+				<div id="contact-container">
+					<div class="contact-content">
+						<h3>Get in touch!</h3>
+						<p>
+							For general inquiry, email
+							<a class="email" href="mailto:mike.zalik@gmail.com"
+								>mike.zalik@gmail.com</a
+							>.
+						</p>
+						<p>
+							Find out more details about my code at
+							<a style="color: #a5a5a5" href="https://github.com/mikezalik"
+								>GitHub</a
+							>.
+						</p>
+						<p>
+							I'm always looking to grow, develop and network so please reach
+							out!
+						</p>
+					</div>
+					<div class="contact-social">
+						<a
+							href="https://www.linkedin.com/in/michael-z-1158607b/"
+							class="svg"
+						>
+							<object
+								data="svg/linkedin.svg"
+								type="image/svg+xml"
+								class="mailicon"
+							></object>
+						</a>
+						<a href="https://github.com/mikezalik" class="svg">
+							<object
+								data="svg/github.svg"
+								type="image/svg+xml"
+								class="mailicon"
+							></object>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<small
+				>&copy; <noscript>2020</noscript><span id="year"></span> | Michael
+				Zalik</small
+			>
+		</footer>
+		<script>
+			(function () {
+				// set date for copyright
+				var yearNode = document.querySelector('#year');
+				yearNode.innerHTML = new Date().getFullYear();
+			})();
+		</script>
+	</body>
 </html>
